@@ -8,9 +8,10 @@ function App() {
       <h1>
         This is {isResponsive ? 'truly' : 'not'} responsive.
       </h1>
+      <i>Height: {isResponsive ? '100dvh' : '100vh'}</i>
       <p onClick={() => setIsResponsive(!isResponsive)}>Make It {isResponsive ? 'Unresponsive' : 'Responsive'}</p>
       <nav>
-        <button>Get Started</button>
+        <button>This button should be visible!</button>
       </nav>
     </main>
   )
